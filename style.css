@@ -30,3 +30,11 @@ button {
 button:hover {
     background-color: #e03565; /* Darker pink on hover */
 }
+h1 {
+    font-family: cursive;
+    color: rosybrown;
+}
+p {
+    font-family: fantasy;
+    color:rosybrown;
+}
