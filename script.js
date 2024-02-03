@@ -1,7 +1,16 @@
-function response(answer) {
+document.getElementById('yesButton').addEventListener('click', function () {
+    displayGif(true);
+});
+
+document.getElementById('noButton').addEventListener('click', function () {
+    displayGif(false);
+});
+
+function displayGif(answer) {
+    const gifContainer = document.getElementById('gifContainer');
     if (answer) {
-        alert("Shiii, I love you cutie ");
+        gifContainer.innerHTML = '<img src="hug-kiss.gif" alt="Celebration GIF">';
     } else {
-        alert("Que Awite, la neta voy llorar amor, pero yo voy seguir amandote");
+        gifContainer.innerHTML = '<img src="huh-cat.gif" alt="Denial GIF">';
     }
 }
