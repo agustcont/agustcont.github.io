@@ -4,6 +4,7 @@ body {
     color: #333;
     text-align: center;
     padding: 50px;
+    cursor: url('cat-cursor.png'), auto;
 }
 
 .container {
@@ -37,4 +38,58 @@ h1 {
 p {
     font-family: fantasy;
     color:rosybrown;
+}
+/* 🎓 Graduation Countdown Styles (Matches Romantic Theme) */
+.graduation-countdown {
+    background: #fff0f5; /* Light rosy pink */
+    border: 2px solid #ffb6c1;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.graduation-countdown h2 {
+    font-size: 1.8rem;
+    color: rosybrown;
+    font-family: cursive;
+    margin-bottom: 0.5rem;
+}
+
+.graduation-countdown .program {
+    font-size: 1rem;
+    color: #8b5c5c;
+    font-family: fantasy;
+    margin-bottom: 1.5rem;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+}
+
+#countdown div {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    min-width: 70px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#countdown span {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #e03565;
+}
+
+#countdown small {
+    color: #555;
 }

@@ -5,16 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Be My Valentine?</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Include in your HTML (inside <head> or before </body>) -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
 </head>
 <body>
+
+    <!-- 🎓 Graduation Countdown Section -->
+    <section class="graduation-countdown">
+        <h2>🎓 Countdown to PA Graduation!</h2>
+        <p class="program">Midwestern University – Physician Assistant Program</p>
+        <div id="countdown">
+            <div><span id="days">0</span><small>Days</small></div>
+            <div><span id="hours">0</span><small>Hours</small></div>
+            <div><span id="minutes">0</span><small>Minutes</small></div>
+            <div><span id="seconds">0</span><small>Seconds</small></div>
+        </div>
+    </section>
+
+    <!-- ❤️ Valentine Message Section -->
     <div class="container">
-        <h1>Gustarias ser mi Valentine amor?</h1>
-        <p>Hola mi amor, te puedo pedir tu mano y preguntarte si gustarias ser mi valentine?</p>
+        <h1>¿Gustarías ser mi Valentine, amor?</h1>
+        <p>Hola mi amor, ¿te puedo pedir tu mano y preguntarte si gustarías ser mi valentine?</p>
         
         <button id="yesButton">Shiii</button>
-        <button id="noButton">Hmmm aun nose</button>
-
+        <button id="noButton">Hmmm aún no sé</button>
     </div>
+
     <div id="gifContainer"></div>
     <script src="script.js"></script>
 </body>
